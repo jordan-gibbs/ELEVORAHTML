@@ -52,6 +52,7 @@ def get_htm_download_link(modified_htm, filename):
 
 # Streamlit UI
 st.set_page_config(page_title='HTM File Modifier', page_icon=':moon:', initial_sidebar_state='auto')
+st.title("Elevora HTML Cleaner")
 
 # File uploader
 uploaded_file = st.file_uploader("Choose the HTML File", type="htm")
